@@ -1,5 +1,7 @@
 # Test Automation Code Challenge as assigned by Signal Path
-Tests are written with Ruby, WATiR, rspec, and cucumber so you need to setup Ruby environment. Depending on your OS you can setup Ruby by [this link](https://www.ruby-lang.org/en/documentation/installation/)
+This test suite was written to test the Angular ToDo app found [here](http://todomvc.com/examples/angular2/)
+
+Tests are written with Ruby, WATiR, Rspec, and Cucumber so you will need to setup Ruby environment. Depending on your OS you can setup Ruby by [this link](https://www.ruby-lang.org/en/documentation/installation/)
 
 ### Install Bundler<br>
 When Ruby setup is done, you can install bundler<br>
