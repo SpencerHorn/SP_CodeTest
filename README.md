@@ -1,5 +1,5 @@
 # Test Automation Code Challenge as assigned by Signal Path
-Test are written with Ruby, WATiR, rspec, and cucumber so you need to setup Ruby environment. Depending on your OS you can setup Ruby by [this link](https://www.ruby-lang.org/en/documentation/installation/)
+Tests are written with Ruby, WATiR, rspec, and cucumber so you need to setup Ruby environment. Depending on your OS you can setup Ruby by [this link](https://www.ruby-lang.org/en/documentation/installation/)
 
 ### Install Bundler<br>
 When Ruby setup is done, you can install bundler<br>
@@ -11,7 +11,7 @@ When Ruby setup is done, you can install bundler<br>
 bundle install
 ```
 
-### example of how to run a test locally
+### Example of how to run a test locally
 
 `cucumber --format pretty --quiet RUN_LOCAL=true BROWSER=headless --tag @todo_test_1`
 
