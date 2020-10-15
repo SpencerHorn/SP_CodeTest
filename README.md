@@ -18,7 +18,7 @@ bundle install
 1. BROWSER options:
   * headless: will run tests in headless headless mode
   * chrome: will run your tests locally in chrome
-  * firefox: - will run your test locally in firefox
+  * firefox: will run your test locally in firefox
   * safari: will run your tests locally in safari
   * remote: will run your tests against a remote browser, useful for running tests in docker
   * default: chrome if no BROWSER is specified it will default to using chrome.
