@@ -22,3 +22,9 @@ bundle install
   * safari: will run your tests locally in safari
   * remote: will run your tests against a remote browser, useful for running tests in docker
   * default: chrome if no BROWSER is specified it will default to using chrome.
+  
+2. --tag options
+  * no tag will run all tests in suite
+    example
+    `cucumber --format pretty --quiet RUN_LOCAL=true BROWSER=headless`
+  * appending `--tag` followed by any of the tags listed in the feature files will run only the tests with those tags.
